@@ -2111,3 +2111,5 @@ this.onmessage = function (event) {
  console.log('分线程向主线程返回数据: '+result)
  // alert(result)  alert是window的方法, 在分线程不能调用
  // 分线程中的全局对象不再是window, 所以在分线程中不可能更新界面
+ }
+![image](https://user-images.githubusercontent.com/73590102/196036361-006603c7-149e-4dbb-9970-ed2cd3657b02.png)
